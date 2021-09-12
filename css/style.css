@@ -47,20 +47,23 @@ html {
 body {
     font-family: "roboto";
     font-style: normal;
-    font-size: 32px
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
 }
 
 .wraper {
-    width: auto;
+    max-width: 1219px;
+    margin: 0 auto;
+}
+.header {
     background-color: #007765;
 }
 
-.header {
-    max-width: 1219px;
-    height: 84px;
-    margin: 0 auto;
-}
-
-.header_logo_pic{
-    margin: auto 0;
+.header_wraper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
