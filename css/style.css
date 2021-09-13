@@ -59,11 +59,42 @@ body {
 }
 .header {
     background-color: #007765;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
-.header_wraper{
+.header_wraper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin-right: 8px;
+    list-style-type: none;
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_link {
+    font-size: 24px;
+    line-height: 28.13px;
+    line-height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.header_link:hover {
+    
+}
+
