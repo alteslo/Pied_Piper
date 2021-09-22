@@ -57,6 +57,9 @@ body {
     max-width: 1219px;
     margin: 0 auto;
 }
+
+/*header style start */
+
 .header {
     background-color: #007765;
     position: fixed;
@@ -94,7 +97,74 @@ body {
     text-decoration: none;
 }
 
-.header_link:hover {
-    
+.header_link:hover, .header_link:focus, .header_link:active {
+    opacity: 0.75;
+}
+
+/*header style finish */
+
+.jumbotron{
+    min-height: 403px;
+    background: url(../images/green_cosm_bg.png) center no-repeat;
+    background-size: cover;
+    margin-top: 101px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro_title{
+    color: white;
+}
+
+.problem{
+    background-color: #EEEEEE;
+    height: 719px;
+    display: flex;
+}
+
+.problem_text{
+    height: 488px;
+}
+
+.problem_title{
+    color:#007765;
+    text-align: center;
+}
+
+.hero{
+    background: url(../images/blue_cosm_bg.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 483px;
+    justify-content: center;
+	align-items: center;
+}
+
+.hero_text{
+    color: white;
+    text-align: center;
+    height: 228px;
+    font-size: 48px;
+}
+
+.introdusing{
+    display: flex;
+    height: 604px;
+    justify-content: center;
+	align-items: center;
+}
+
+.introdusing_title{
+    color:#007765;
+    text-align: center;
+}
+
+.introdusing_logo{
+    float: left;
+    margin: 0 42px 0 0;
+    padding: 0px;
+	width: 115px;
+	height: 115px;
 }
 
