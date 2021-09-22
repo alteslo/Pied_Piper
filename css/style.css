@@ -168,3 +168,13 @@ body {
 	height: 115px;
 }
 
+.team_title{
+    color:#007765;
+    text-align: center;
+}
+
+.team{
+    background-color: #EEEEEE;
+    height: 845px;
+    display: flex;
+}
