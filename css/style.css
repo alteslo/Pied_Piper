@@ -176,5 +176,47 @@ body {
 .team{
     background-color: #EEEEEE;
     height: 845px;
+    padding-top: 58px;
+    padding-bottom: 112px;
+}
+
+.team_content{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.team_member{
+    flex-basis: 33.3333%;
+	text-align: center;
+	height: 231px;
+	margin-bottom: 82px;
+}
+
+.team_name{
+    color:#007765;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.team_position{
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+}
+
+.footer{
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 176px;
+}
+
+.footer_text{
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 540px;
+    height: 64;
 }
